@@ -13,7 +13,7 @@ double Avg(double a[], int count)
 
 int main()
 {
-    double numbers[] = {10, 20, 30, 40, 50};
+    double numbers[] = {1,2,3,4,5};
     int size = sizeof(numbers) / sizeof(numbers[0]);
     
     cout << "Average is: " << Avg(numbers, size) << endl;
