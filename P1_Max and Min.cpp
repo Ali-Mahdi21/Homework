@@ -28,8 +28,8 @@ int main()
     int number[]={2, 7, 14, 20, 12, 9};
     int length = sizeof(number) / sizeof(number[0]);
 
-    cout<<"maximum= "<<Max(number , length)<<endl;
-    cout<<"minimum= "<<Min(number , length);
+    cout<<"maximum = "<<Max(number , length)<<endl;
+    cout<<"minimum = "<<Min(number , length);
 
     return 0;
 }
